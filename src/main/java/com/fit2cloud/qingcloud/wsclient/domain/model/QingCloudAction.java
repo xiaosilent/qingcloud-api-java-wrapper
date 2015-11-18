@@ -140,4 +140,22 @@ public class QingCloudAction {
     public static final String DETACH_TAGS = "DetachTags";
 
 
+    // rdb
+    public static final String CREATE_RDB = "CreateRDB";
+    public static final String DESCRIBE_RDBS = "DescribeRDBs";
+    public static final String DELETE_RDBS = "DeleteRDBs";
+    public static final String START_RDBS = "StartRDBs";
+    public static final String STOP_RDBS = "StopRDBs";
+    public static final String RESIZE_RDBS = "ResizeRDBs";
+    public static final String RDBS_LEAVE_VXNET = "RDBsLeaveVxnet";
+    public static final String RDBS_JOIN_VXNET = "RDBsJoinVxnet";
+    public static final String CREATRE_RDB_FROM_SNAPSHOT = "CreateRDBFromSnapshot";
+    public static final String CREATE_RDB_INSTANCE_FROM_SNAPSHOT = "CreateRDBInstanceFromSnapshot";
+    public static final String GET_RDB_INSTANCE_FILES = "GetRDBInstanceFiles";
+    public static final String COPY_RDB_INSTANCE_FILES_TO_FTP = "CopyRDBInstanceFilesToFTP";
+    public static final String GET_RDB_MONITOR = "GetRDBMonitor";
+    public static final String MODIFY_RDB_PARAMETERS = "ModifyRDBParameters";
+    public static final String APPLY_RDB_PARAMETERGROUP = "ApplyRDBParameterGroup";
+    public static final String DESCRIBE_RDB_PARAMETERS = "DescribeRDBParameters";
+
 }
