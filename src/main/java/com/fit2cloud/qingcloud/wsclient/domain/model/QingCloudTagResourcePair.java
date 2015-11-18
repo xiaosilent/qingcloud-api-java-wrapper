@@ -1,7 +1,7 @@
 package com.fit2cloud.qingcloud.wsclient.domain.model;
 
 
-public class QingCloudResourceTagPair {
+public class QingCloudTagResourcePair {
 
     private String tag_id;
     private String resource_type;

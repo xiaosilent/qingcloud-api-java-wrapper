@@ -8,8 +8,9 @@ public class QingCloudTag {
     private String tag_name;
     private String description;
     private Integer resource_count;
-    private Integer resource_type_count;
-    private List<QingCloudResourceTagPair> resource_tag_pairs;
+    private List<QingCloudTagResourceTypeCount> resource_type_count;
+    private List<QingCloudTagResourcePair> resource_tag_pairs;
+    private String create_time;
 
     public String getTag_id() {
         return tag_id;
@@ -43,19 +44,27 @@ public class QingCloudTag {
         this.resource_count = resource_count;
     }
 
-    public Integer getResource_type_count() {
+    public List<QingCloudTagResourceTypeCount> getResource_type_count() {
         return resource_type_count;
     }
 
-    public void setResource_type_count(Integer resource_type_count) {
+    public void setResource_type_count(List<QingCloudTagResourceTypeCount> resource_type_count) {
         this.resource_type_count = resource_type_count;
     }
 
-    public List<QingCloudResourceTagPair> getResource_tag_pairs() {
+    public List<QingCloudTagResourcePair> getResource_tag_pairs() {
         return resource_tag_pairs;
     }
 
-    public void setResource_tag_pairs(List<QingCloudResourceTagPair> resource_tag_pairs) {
+    public void setResource_tag_pairs(List<QingCloudTagResourcePair> resource_tag_pairs) {
         this.resource_tag_pairs = resource_tag_pairs;
+    }
+
+    public String getCreate_time() {
+        return create_time;
+    }
+
+    public void setCreate_time(String create_time) {
+        this.create_time = create_time;
     }
 }

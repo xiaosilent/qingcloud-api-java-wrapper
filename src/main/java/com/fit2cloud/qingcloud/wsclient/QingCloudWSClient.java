@@ -35,7 +35,7 @@ public class QingCloudWSClient implements IQingCloudWSClient {
     private static final String API_VERSION = "1";
     private static final String ISO8601_DATE_FORMAT = "yyyy-MM-dd'T'HH:mm:ss'Z'";
     private static final String ENCODING = "UTF-8";
-    private static final boolean DEBUG = false;
+    private static final boolean DEBUG = true;
 
     private String endpoint = "https://api.qingcloud.com/iaas/";
 
