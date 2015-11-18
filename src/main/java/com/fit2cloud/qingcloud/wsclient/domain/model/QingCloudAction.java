@@ -1,14 +1,14 @@
 package com.fit2cloud.qingcloud.wsclient.domain.model;
 
 public class QingCloudAction {
-	//images
-	public static String DESCRIBE_IMAGES = "DescribeImages";
-	public static String CAPTURE_INSTANCE = "CaptureInstance";
-	public static String DELETE_IMAGES = "DeleteImages";
+    //images
+    public static String DESCRIBE_IMAGES = "DescribeImages";
+    public static String CAPTURE_INSTANCE = "CaptureInstance";
+    public static String DELETE_IMAGES = "DeleteImages";
     public static String MODIFY_IMAGE_ATTRIBUTES = "ModifyImageAttributes";
     public static String GRANT_IMAGE_TO_USERS = "GrantImageToUsers";
     public static String REVOKE_IMAGE_FROM_USERS = "RevokeImageFromUsers";
-    
+
     // instances
     public static String DESCRIBE_INSTANCES = "DescribeInstances";
     public static String RUN_INSTANCES = "RunInstances";
@@ -50,7 +50,7 @@ public class QingCloudAction {
     public static String ADD_SECURITY_GROUP_RULES = "AddSecurityGroupRules";
     public static String DELETE_SECURITY_GROUP_RULES = "DeleteSecurityGroupRules";
     public static String MODIFY_SECURITY_GROUP_RULE_ATTRIBUTES = "ModifySecurityGroupRuleAttributes";
-    
+
     // vxnets
     public static String DESCRIBE_VXNETS = "DescribeVxnets";
     public static String CREATE_VXNETS = "CreateVxnets";
@@ -118,16 +118,26 @@ public class QingCloudAction {
     public static String MODIFY_SNAPSHOT_ATTRIBUTES = "ModifySnapshotAttributes";
     public static String CAPTURE_INSTANCE_FROM_SNAPSHOT = "CaptureInstanceFromSnapshot";
     public static String CREATE_VOLUME_FROM_SNAPSHOT = "CreateVolumeFromSnapshot";
-    
+
     // job
     public static String DESCRIBE_JOBS = "DescribeJobs";
-    
+
     // zone
     public static String DESCRIBE_ZONES = "DescribeZones";
 
-    //app
+    // app
     public static final String DESCRIBE_USERS = "DescribeUsers";
     public static final String LEASE_APP = "LeaseApp";
     public static final String UNLEASE_APP = "UnLeaseApp";
+
+
+    // tag
+    public static final String DESCRIBE_TAGS = "DescribeTags";
+    public static final String CREATE_TAG = "CreateTag";
+    public static final String DELETE_TAGS = "DeleteTags";
+    public static final String MODIFY_TAG_ATTRIBUTES = "ModifyTagAttributes";
+    public static final String ATTACH_TAGS = "AttachTags";
+    public static final String DETACH_TAGS = "DetachTags";
+
 
 }

@@ -9,7 +9,7 @@ public class QingCloudTag {
     private String description;
     private Integer resource_count;
     private Integer resource_type_count;
-    private List<QingCloudTagPair> resource_tag_pairs;
+    private List<QingCloudResourceTagPair> resource_tag_pairs;
 
     public String getTag_id() {
         return tag_id;
@@ -51,11 +51,11 @@ public class QingCloudTag {
         this.resource_type_count = resource_type_count;
     }
 
-    public List<QingCloudTagPair> getResource_tag_pairs() {
+    public List<QingCloudResourceTagPair> getResource_tag_pairs() {
         return resource_tag_pairs;
     }
 
-    public void setResource_tag_pairs(List<QingCloudTagPair> resource_tag_pairs) {
+    public void setResource_tag_pairs(List<QingCloudResourceTagPair> resource_tag_pairs) {
         this.resource_tag_pairs = resource_tag_pairs;
     }
 }
