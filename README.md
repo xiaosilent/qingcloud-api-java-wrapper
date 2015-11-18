@@ -61,7 +61,7 @@ http://repository.fit2cloud.com/content/repositories/fit2cloud/com/fit2cloud/qin
 		keypair_id = createKeyPairResponse.getKeypair_id();		
 ```
 
-## 以下是API列表:
+## 以下是已经实现的API列表:
 API参数说明: https://docs.qingcloud.com/api/index.html
 
 ```
@@ -183,6 +183,14 @@ createVolumeFromSnapshot
 
 #操作日志 APIs
 DescribeJobs
+
+# 标签 APIs
+DescribeTags
+CreateTag
+DeleteTags
+ModifyTagAttributes
+AttachTags
+DetachTags
 
 ```
 ##青云应用API
